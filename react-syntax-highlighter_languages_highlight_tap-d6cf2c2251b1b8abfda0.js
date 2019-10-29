@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[182],{BrQc:function(n,e){n.exports=function(n){return{case_insensitive:!0,contains:[n.HASH_COMMENT_MODE,{className:"meta",variants:[{begin:"^TAP version (\\d+)$"},{begin:"^1\\.\\.(\\d+)$"}]},{begin:"(s+)?---$",end:"\\.\\.\\.$",subLanguage:"yaml",relevance:0},{className:"number",begin:" (\\d+) "},{className:"symbol",variants:[{begin:"^ok"},{begin:"^not ok"}]}]}}}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_highlight_tap-d6cf2c2251b1b8abfda0.js.map
