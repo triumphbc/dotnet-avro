@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../Tbc.Avro.Build.props" />
+
+  <PropertyGroup>
+    <Description>A tool for working with Avro from the command line</Description>
+    <IsPackable>true</IsPackable>
+    <OutputType>Exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ToolCommandName>dotnet-avro</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tbc.Avro.Codegen\Tbc.Avro.Codegen.csproj" />
+    <ProjectReference Include="..\Tbc.Avro.Confluent\Tbc.Avro.Confluent.csproj" />
+  </ItemGroup>
+
+</Project>
